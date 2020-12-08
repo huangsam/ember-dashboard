@@ -55,5 +55,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "highcharts": "^8.2.2"
   }
 }
