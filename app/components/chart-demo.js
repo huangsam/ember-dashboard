@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 
 export default class ChartDemoComponent extends Component {
-  chartData = [
+  fitnessData = [
     {
       name: 'Miles ran',
       data: [
