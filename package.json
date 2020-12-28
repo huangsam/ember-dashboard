@@ -57,6 +57,7 @@
     "edition": "octane"
   },
   "dependencies": {
+    "ember-highcharts": "^2.2.0",
     "highcharts": "^8.2.2"
   }
 }
