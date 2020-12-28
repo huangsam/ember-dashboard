@@ -1,3 +1,7 @@
 <div class="chart-responsive">
-  {{high-charts chartOptions=this.chartOptions content=this.content theme=this.theme}}
+  <HighCharts
+    @chartOptions={{this.chartOptions}}
+    @content={{this.content}}
+    @theme={{this.theme}}
+  />
 </div>

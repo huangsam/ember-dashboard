@@ -1,3 +1,4 @@
+// https://github.com/ahmadsoe/ember-highcharts/blob/master/tests/dummy/app/themes/default-theme.js
 export default {
   colors: [
     '#258be2',
