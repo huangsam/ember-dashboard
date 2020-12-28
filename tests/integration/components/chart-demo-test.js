@@ -12,15 +12,7 @@ module('Integration | Component | chart-demo', function(hooks) {
 
     await render(hbs`<ChartDemo />`);
 
-    assert.equal(this.element.textContent.trim(), '');
-
-    // Template block usage:
-    await render(hbs`
-      <ChartDemo>
-        template block text
-      </ChartDemo>
-    `);
-
-    assert.equal(this.element.textContent.trim(), 'template block text');
+    const elementText = this.element.textContent.trim();
+    assert.true(elementText.includes('Fitness Chart'));
   });
 });
