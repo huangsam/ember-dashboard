@@ -1,6 +1,7 @@
-import Highcharts from 'ember-highcharts/components/high-charts';
+// import Highcharts from 'ember-highcharts/components/high-charts';
+import BaseChart from './base-chart';
 
-export default class FitnessChart extends Highcharts {
+export default class FitnessChart extends BaseChart {
   // https://api.highcharts.com/highcharts/
   chartOptions = {
     chart: {
@@ -18,6 +19,4 @@ export default class FitnessChart extends Highcharts {
       }
     }
   }
-
-  content = []
 }
