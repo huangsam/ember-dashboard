@@ -1,4 +1,40 @@
+/**
+ * Align Images Side By Side
+ * https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+ *
+ * Media Queries
+ * https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+ */
+
 .chart-responsive {
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  float: left;
+  padding: 5px;
+}
+
+/* One image container */
+@media only screen and (max-width: 1014px) {
+  .chart-responsive {
+    width: 99%;
+  }
+}
+
+/* Two image containers */
+@media only screen and (min-width: 1015px) and (max-width: 1314px) {
+  .chart-responsive {
+    width: 49%;
+  }
+}
+
+/* Three image containers */
+@media only screen and (min-width: 1315px) {
+  .chart-responsive {
+    width: 32%;
+  }
+}
+
+/* Clear floats after image containers */
+.chart-row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
