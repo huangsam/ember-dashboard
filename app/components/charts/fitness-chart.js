@@ -1,13 +1,13 @@
 import BaseChart from './base-chart';
 
-// https://www.highcharts.com/demo/line-basic
+// https://www.highcharts.com/demo/area-basic
 export default class FitnessChart extends BaseChart {
   chartOptions = {
     chart: {
-      type: 'line'
+      type: 'area'
     },
     title: {
-      text: 'Fitness activity over time'
+      text: 'Fitness activity over days'
     },
     xAxis: {
       type: 'datetime'
