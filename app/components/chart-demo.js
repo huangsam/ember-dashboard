@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 
 export default class ChartDemoComponent extends Component {
-  // fitness-chart.js
+  // FitnessChart data
   fitnessData = [
     {
       name: 'Jane',
@@ -27,7 +27,7 @@ export default class ChartDemoComponent extends Component {
     }
   ];
 
-  // sales-chart.js
+  // SalesChart data
   salesData = [
     {
       name: 'Sales per',
@@ -51,7 +51,7 @@ export default class ChartDemoComponent extends Component {
     }
   ];
 
-  // population-chart.js
+  // PopulationChart data
   populationData = [
     {
       name: 'Year 1800',
@@ -71,7 +71,7 @@ export default class ChartDemoComponent extends Component {
     }
   ]
 
-  // height-weight-chart.js
+  // HeightWeightChart data
   heightWeightData = [
     {
       name: 'Female',
@@ -107,7 +107,7 @@ export default class ChartDemoComponent extends Component {
     }
   ];
 
-  // browser-chart.js
+  // BrowserChart data
   browserData = [
     {
       name: 'Brands',
@@ -155,7 +155,7 @@ export default class ChartDemoComponent extends Component {
     }
   ];
 
-  // employment-chart.js
+  // EmploymentChart data
   employmentData = [
     {
       name: 'Installation',
