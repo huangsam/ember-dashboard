@@ -13,6 +13,20 @@ module('Integration | Component | chart-demo', function(hooks) {
     await render(hbs`<ChartDemo />`);
 
     const elementText = this.element.textContent.trim();
-    assert.true(elementText.includes('Fitness Chart'));
+
+    // EmployeeChart
+    assert.true(elementText.includes('Solar Employment Growth by Sector, 2010-2016'));
+
+    // FitnessChart
+    assert.true(elementText.includes('Fitness activity over days'));
+
+    // HeightWeightChart
+    assert.true(elementText.includes('Height Versus Weight of Individuals by Gender'));
+
+    // PopulationChart
+    assert.true(elementText.includes('Historic World Population by Region'));
+
+    // SalesChart
+    assert.true(elementText.includes('Sales per employee per weekday'));
   });
 });
