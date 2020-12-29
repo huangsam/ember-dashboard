@@ -46,8 +46,6 @@ export default class PopulationChart extends BaseChart {
       y: 80,
       floating: true,
       borderWidth: 1,
-      backgroundColor:
-        Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF',
       shadow: true
     }
   };

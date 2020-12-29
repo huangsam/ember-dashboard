@@ -34,7 +34,6 @@ export default class HeightWeightChart extends BaseChart {
       x: 100,
       y: 70,
       floating: true,
-      backgroundColor: Highcharts.defaultOptions.chart.backgroundColor,
       borderWidth: 1
     },
     plotOptions: {
