@@ -6,6 +6,12 @@
  * https://www.w3schools.com/css/css_rwd_mediaqueries.asp
  */
 
+/* Simple padding for content */
+header, footer {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .chart-responsive {
   float: left;
   padding: 5px;
