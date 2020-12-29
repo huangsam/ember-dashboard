@@ -39,7 +39,7 @@ header, footer {
 }
 
 /* Clear floats after image containers */
-.chart-row::after {
+.chart-grid::after {
   content: "";
   clear: both;
   display: table;
