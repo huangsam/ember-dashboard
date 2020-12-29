@@ -6,7 +6,7 @@ export default class FitnessChart extends BaseChart {
       type: 'line'
     },
     title: {
-      text: 'Fitness activity in a month'
+      text: 'Fitness activity over time'
     },
     xAxis: {
       type: 'datetime'
