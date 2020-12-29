@@ -8,7 +8,7 @@ export default class HeightWeightChart extends BaseChart {
       zoomType: 'xy'
     },
     title: {
-      text: 'Height Versus Weight of 507 Individuals by Gender'
+      text: 'Height Versus Weight of Individuals by Gender'
     },
     subtitle: {
       text: 'Source: Heinz  2003'
