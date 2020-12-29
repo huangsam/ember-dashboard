@@ -6,45 +6,68 @@
  * https://www.w3schools.com/css/css_rwd_mediaqueries.asp
  */
 
+html {
+  /* Simplify layout element sizing */
+  box-sizing: border-box;
+}
+
 body {
-  /* Padding for layout */
-  padding-left: 10px;
-  padding-right: 10px;
+  /* Simplify layout styling */
+  margin: 0;
+  padding: 0;
+  /* Support sticky footer */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 header, footer {
-  /* Padding for content */
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* Apply color for side content */
+  background-color: black;
+  color: white;
+  /* Apply padding for side content */
+  padding: 20px;
 }
 
 header nav a {
-  /* Margin for links */
+  /* Apply margin for links */
   margin-right: 5px;
+  /* Apply color for links */
+  color: white;
+}
+
+main {
+  /* Support sticky footer */
+  flex: 1;
+  /* Apply padding for main content */
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 
 .chart-responsive {
-  /* Side-by-side charts */
+  /* Support side-by-side charts */
   float: left;
-  /* Padding for charts */
+  /* Apply padding for charts */
   padding: 5px;
 }
 
-/* One image container with narrow screen */
+/* Enforce one image container with narrow screen */
 @media only screen and (max-width: 1014px) {
   .chart-responsive {
     width: 99%;
   }
 }
 
-/* Two image containers with medium screen */
+/* Enforce two image containers with medium screen */
 @media only screen and (min-width: 1015px) and (max-width: 1314px) {
   .chart-responsive {
     width: 49%;
   }
 }
 
-/* Three image containers with wide screen */
+/* Enforce three image containers with wide screen */
 @media only screen and (min-width: 1315px) {
   .chart-responsive {
     width: 32%;
