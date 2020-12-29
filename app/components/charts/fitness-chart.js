@@ -3,10 +3,10 @@ import BaseChart from './base-chart';
 export default class FitnessChart extends BaseChart {
   chartOptions = {
     chart: {
-      type: 'area'
+      type: 'line'
     },
     title: {
-      text: 'Fitness Chart'
+      text: 'Fitness activity in a month'
     },
     xAxis: {
       type: 'datetime'
@@ -16,5 +16,5 @@ export default class FitnessChart extends BaseChart {
         text: 'Miles Ran'
       }
     }
-  }
+  };
 }
