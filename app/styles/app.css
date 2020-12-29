@@ -6,32 +6,45 @@
  * https://www.w3schools.com/css/css_rwd_mediaqueries.asp
  */
 
-/* Simple padding for content */
+body {
+  /* Padding for layout */
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 header, footer {
+  /* Padding for content */
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+header nav a {
+  /* Margin for links */
+  margin-right: 5px;
+}
+
 .chart-responsive {
+  /* Side-by-side charts */
   float: left;
+  /* Padding for charts */
   padding: 5px;
 }
 
-/* One image container */
+/* One image container with narrow screen */
 @media only screen and (max-width: 1014px) {
   .chart-responsive {
     width: 99%;
   }
 }
 
-/* Two image containers */
+/* Two image containers with medium screen */
 @media only screen and (min-width: 1015px) and (max-width: 1314px) {
   .chart-responsive {
     width: 49%;
   }
 }
 
-/* Three image containers */
+/* Three image containers with wide screen */
 @media only screen and (min-width: 1315px) {
   .chart-responsive {
     width: 32%;
