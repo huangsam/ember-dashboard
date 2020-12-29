@@ -9,7 +9,7 @@ module.exports = function(defaults) {
       includeHighCharts: true, // HighCharts
       includeHighStocks: false, // HighCharts + HighStocks
       includeHighMaps: false, // HighMaps exclusively
-      includeModules: ['data', 'drilldown', 'heatmap', 'map']
+      includeModules: ['heatmap']
       /* available modules:
         boost, broken-axis, canvas-tools, data, drilldown, exporting, funnel,
         heatmap, map, no-data-to-display, offline-exporting, solid-gauge, treemap
