@@ -1,5 +1,6 @@
 import BaseChart from './base-chart';
 
+// https://www.highcharts.com/demo/heatmap
 export default class SalesChart extends BaseChart {
   chartOptions = {
     chart: {

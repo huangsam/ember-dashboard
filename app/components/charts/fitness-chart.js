@@ -1,5 +1,6 @@
 import BaseChart from './base-chart';
 
+// https://www.highcharts.com/demo/line-basic
 export default class FitnessChart extends BaseChart {
   chartOptions = {
     chart: {
