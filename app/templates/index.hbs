@@ -1,14 +1,17 @@
-<div class="jumbo">
+<div id="jumbo">
   <h2>Welcome to my data site</h2>
-  <p>Check out all of the amazing content here.</p>
-  <p>Everything was made possible with the following libraries:</p>
+  <p>Check out all of the amazing content here!</p>
+</div>
+<div id="overview">
+  <h2>Overview</h2>
+  <p><LinkTo @route="about" class="button">About</LinkTo> has general information.</p>
+  <p><LinkTo @route="charts" class="button">Charts</LinkTo> has chart visualizations.</p>
+</div>
+<div id="credits">
+  <h2>Credits</h2>
+  <p>Everything is made possible with the following libraries:</p>
   <ul>
     <li>Ember: <a href="https://emberjs.com/">emberjs.com</a></li>
     <li>Highcharts: <a href="https://www.highcharts.com/">highcharts.com</a></li>
   </ul>
-</div>
-<div class="content">
-  <h2>Overview</h2>
-  <p><LinkTo @route="about" class="button">About</LinkTo> has general information.</p>
-  <p><LinkTo @route="charts" class="button">Charts</LinkTo> has chart visualizations.</p>
 </div>
