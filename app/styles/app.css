@@ -20,7 +20,7 @@ html {
 }
 
 body {
-  /* Simplify layout styling */
+  /* Remove default margin and padding */
   margin: 0;
   padding: 0;
 }
