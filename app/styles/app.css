@@ -53,15 +53,15 @@ header nav a {
 main {
   /* Support sticky footer */
   flex-grow: 1;
-  /* Apply padding for main content */
-  padding: 30px;
+  /* Apply margin for main content */
+  margin: 30px;
 }
 
 .chart {
   /* Support side-by-side charts */
   float: left;
-  /* Apply padding for charts */
-  padding: 5px;
+  /* Apply margin for charts */
+  margin: 5px;
 }
 
 @media only screen and (max-width: 1099px) {
