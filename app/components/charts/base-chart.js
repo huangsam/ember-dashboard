@@ -1,7 +1,15 @@
 import Component from '@glimmer/component';
 import defaultTheme from '../themes/default-theme';
 
-// https://derricksdocs.com/a-simple-time-series-chart-with-ember-highcharts/
+/**
+ * Base chart class
+ *
+ * Written to enhance the chart constructor and styling of the vanilla
+ * HighCharts component from ember-highcharts.
+ *
+ * Inspiration:
+ * https://derricksdocs.com/a-simple-time-series-chart-with-ember-highcharts/
+ */
 export default class BaseChart extends Component {
   constructor(owner, args) {
     super(owner, args);
