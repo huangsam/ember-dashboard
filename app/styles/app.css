@@ -4,6 +4,9 @@
  *
  * Media Queries
  * https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+ *
+ * Sticky footers
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
  */
 
 html {
@@ -22,6 +25,8 @@ body {
 }
 
 header, footer {
+  /* Support sticky footer */
+  flex-shrink: 0;
   /* Apply color for side content */
   background-color: black;
   color: white;
@@ -44,7 +49,7 @@ header nav a {
 
 main {
   /* Support sticky footer */
-  flex: 1;
+  flex-grow: 1;
   /* Apply padding for main content */
   padding-left: 15px;
   padding-top: 15px;
@@ -85,4 +90,6 @@ main {
   content: "";
   clear: both;
   display: table;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
