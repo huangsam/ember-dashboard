@@ -10,6 +10,9 @@
  *
  * Force an Element To Self-Clear its Children
  * https://css-tricks.com/snippets/css/clear-fix/
+ *
+ * Flexbox vs. CSS Grid
+ * https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184
  */
 
 html {
@@ -65,42 +68,11 @@ ul li, ol li {
   margin-bottom: 5px;
 }
 
-.chart {
-  /* Support side-by-side charts */
-  float: left;
-  /* Apply margin for charts */
-  margin: 5px;
-}
-
-@media only screen and (max-width: 999px) {
-  .chart {
-    /* Fit one chart with narrow screen */
-    width: 90%;
-  }
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1499px) {
-  .chart {
-    /* Fit two charts with medium screen */
-    width: 45%;
-  }
-}
-
-@media only screen and (min-width: 1500px) {
-  .chart {
-    /* Fit three charts with wide screen */
-    width: 30%;
-  }
-}
-
 .chart-box {
   /* Apply padding for chart container */
   padding: 10px;
-}
-
-.chart-box:after {
-  /* Clear floats after chart container */
-  content: "";
-  clear: both;
-  display: block;
+  /* Apply responsive grid for chart container */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-gap: 10px;
 }
