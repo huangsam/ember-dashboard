@@ -1,5 +1,18 @@
 import Route from '@ember/routing/route';
 
+/**
+ * Charts route
+ *
+ * Fetches JSON data from multiple files and feeds them as props to the
+ * charts template. In practice, this would involve actual API calls
+ * and some ETL/transformation. With this type of data pipeline, we
+ * assume that the chartOptions will not be modified dynamically.
+ * In rare circumstances, various options like xAxis and yAxis may
+ * need to be modified dynamically. But for now, this is sufficient.
+ *
+ * Inspiration:
+ * https://guides.emberjs.com/release/tutorial/part-1/working-with-data/
+ */
 export default class ChartsRoute extends Route {
   dataMapping = {
     browserData: '/api/browser-data.json',
