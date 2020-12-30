@@ -37,8 +37,8 @@ header, footer {
   padding: 20px;
 }
 
+/* Apply row wrapping for links */
 header nav {
-  /* Apply row wrapping for links */
   display: flex;
   flex-flow: row wrap;
 }
@@ -67,33 +67,34 @@ main {
   padding: 5px;
 }
 
-/* Enforce one image container with narrow screen */
 @media only screen and (max-width: 1099px) {
   .chart {
+    /* Stretch one chart with narrow screen */
     width: 99%;
   }
 }
 
-/* Enforce two image containers with medium screen */
 @media only screen and (min-width: 1100px) and (max-width: 1399px) {
   .chart {
+    /* Stretch two charts with medium screen */
     width: 49%;
   }
 }
 
-/* Enforce three image containers with wide screen */
 @media only screen and (min-width: 1400px) {
   .chart {
+    /* Stretch three charts with wide screen */
     width: 32%;
   }
 }
 
 .chart-box {
+  /* Apply padding for chart container */
   padding: 10px;
 }
 
-/* Clear floats after image containers */
 .chart-box::after {
+  /* Clear floats after chart container */
   content: "";
   clear: both;
   display: block;
