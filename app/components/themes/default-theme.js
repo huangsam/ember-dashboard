@@ -18,14 +18,15 @@ export default {
   chart: {
     backgroundColor: null,
     style: {
-      fontFamily: "sans-serif"
+      fontFamily: "'PT Sans', sans-serif"
     }
   },
   title: {
     style: {
       color: 'black',
-      // fontSize: '18px',
-      // fontWeight: 'bold'
+      fontSize: '16px',
+      fontFamily: "'PT Sans Bold', sans-serif",
+      fontWeight: 'bold'
     }
   },
   subtitle: {
@@ -54,7 +55,7 @@ export default {
     },
     title: {
       style: {
-        fontSize: '16px'
+        fontSize: '14px'
       }
     }
   },

@@ -14,6 +14,30 @@
  * - https://css-tricks.com/difference-explicit-implicit-grids/
  */
 
+@font-face {
+  font-family: 'Lora';
+  font-weight: normal;
+  src: url(/fonts/Lora-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lora Bold';
+  font-weight: bold;
+  src: url(/fonts/Lora-VariableFont_wght.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-weight: normal;
+  src: url(/fonts/PTSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'PT Sans Bold';
+  font-weight: bold;
+  src: url(/fonts/PTSans-Bold.ttf) format('truetype');
+}
+
 html {
   /* Simplify layout element sizing */
   box-sizing: border-box;
@@ -24,12 +48,12 @@ body {
   margin: 0;
   padding: 0;
   /* Apply default font family */
-  font-family: sans-serif;
+  font-family: 'PT Sans', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
   /* Apply header font family */
-  font-family: serif;
+  font-family: 'Lora Bold', serif;
 }
 
 div.layout {
@@ -85,6 +109,6 @@ ul li, ol li {
   padding: 10px;
   /* Apply responsive grid for chart container */
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
   grid-gap: 10px;
 }
