@@ -66,21 +66,21 @@ main {
 
 @media only screen and (max-width: 1099px) {
   .chart {
-    /* Stretch one chart with narrow screen */
+    /* Fit one chart with narrow screen */
     width: 99%;
   }
 }
 
 @media only screen and (min-width: 1100px) and (max-width: 1399px) {
   .chart {
-    /* Stretch two charts with medium screen */
+    /* Fit two charts with medium screen */
     width: 49%;
   }
 }
 
 @media only screen and (min-width: 1400px) {
   .chart {
-    /* Stretch three charts with wide screen */
+    /* Fit three charts with wide screen */
     width: 32%;
   }
 }
