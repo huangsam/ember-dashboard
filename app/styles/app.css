@@ -57,6 +57,11 @@ main {
   margin: 30px;
 }
 
+ul li, ol li {
+  /* Apply margin for list items */
+  margin-bottom: 5px;
+}
+
 .chart {
   /* Support side-by-side charts */
   float: left;
@@ -64,24 +69,24 @@ main {
   margin: 5px;
 }
 
-@media only screen and (max-width: 1099px) {
+@media only screen and (max-width: 999px) {
   .chart {
     /* Fit one chart with narrow screen */
-    width: 99%;
+    width: 90%;
   }
 }
 
-@media only screen and (min-width: 1100px) and (max-width: 1399px) {
+@media only screen and (min-width: 1000px) and (max-width: 1499px) {
   .chart {
     /* Fit two charts with medium screen */
-    width: 49%;
+    width: 45%;
   }
 }
 
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1500px) {
   .chart {
     /* Fit three charts with wide screen */
-    width: 32%;
+    width: 30%;
   }
 }
 
