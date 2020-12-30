@@ -14,6 +14,9 @@
  * - https://css-tricks.com/difference-explicit-implicit-grids/
  */
 
+/* Import Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=PT+Sans&display=swap');
+
 html {
   /* Simplify layout element sizing */
   box-sizing: border-box;
@@ -23,6 +26,13 @@ body {
   /* Remove default margin and padding */
   margin: 0;
   padding: 0;
+  /* Apply default font family */
+  font-family: 'PT Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* Apply header font family */
+  font-family: 'Lora', serif;
 }
 
 div.layout {
