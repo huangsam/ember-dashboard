@@ -12,21 +12,9 @@ module('Integration | Component | chart-demo', function(hooks) {
 
     await render(hbs`<ChartDemo />`);
 
-    const elementText = this.element.textContent.trim();
+    const charts = this.element.getElementsByClassName('chart');
 
-    // EmployeeChart
-    assert.true(elementText.includes('Solar Employment Growth by Sector, 2010-2016'));
-
-    // FitnessChart
-    assert.true(elementText.includes('Fitness activity over days'));
-
-    // HeightWeightChart
-    assert.true(elementText.includes('Height Versus Weight of Individuals by Gender'));
-
-    // PopulationChart
-    assert.true(elementText.includes('Historic World Population by Region'));
-
-    // SalesChart
-    assert.true(elementText.includes('Sales per employee per weekday'));
+    // Verify that the number of charts is expected
+    assert.equal(charts.length, 6);
   });
 });
