@@ -1,8 +1,8 @@
 <div class="chart-box">
-  <Charts::FitnessChart @chartData={{this.fitnessData}} />
-  <Charts::SalesChart @chartData={{this.salesData}} />
-  <Charts::PopulationChart @chartData={{this.populationData}} />
-  <Charts::HeightWeightChart @chartData={{this.heightWeightData}} />
-  <Charts::BrowserChart @chartData={{this.browserData}} />
-  <Charts::EmploymentChart @chartData={{this.employmentData}} />
+  <Charts::FitnessChart @chartData={{@model.fitnessData}} />
+  <Charts::SalesChart @chartData={{@model.salesData}} />
+  <Charts::PopulationChart @chartData={{@model.populationData}} />
+  <Charts::HeightWeightChart @chartData={{@model.heightWeightData}} />
+  <Charts::BrowserChart @chartData={{@model.browserData}} />
+  <Charts::EmploymentChart @chartData={{@model.employmentData}} />
 </div>
