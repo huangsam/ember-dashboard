@@ -1,27 +1,17 @@
 /**
- * Align Images Side By Side
- * https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+ * Making the charts responsive was a tricky process and involved multiple iterations.
  *
- * Media Queries
- * https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+ * Here are the resources followed in the first iteration:
+ * - https://www.w3schools.com/howto/howto_css_images_side_by_side.asp
+ * - https://www.w3schools.com/css/css_rwd_mediaqueries.asp
+ * - https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
+ * - https://css-tricks.com/snippets/css/clear-fix/
  *
- * Sticky footers
- * https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
- *
- * Force an Element To Self-Clear its Children
- * https://css-tricks.com/snippets/css/clear-fix/
- *
- * Flexbox guide
- * https://css-tricks.com/snippets/css/a-guide-to-flexbox/
- *
- * CSS Grid guide
- * https://css-tricks.com/snippets/css/complete-guide-grid/
- *
- * Flexbox vs. CSS Grid
- * https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184
- *
- * Explicit and Implicit Grids
- * https://css-tricks.com/difference-explicit-implicit-grids/
+ * Here are the resources followed in the second iteration:
+ * - https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+ * - https://css-tricks.com/snippets/css/complete-guide-grid/
+ * - https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184
+ * - https://css-tricks.com/difference-explicit-implicit-grids/
  */
 
 html {
