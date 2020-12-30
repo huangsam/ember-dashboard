@@ -74,16 +74,27 @@ header, footer {
 }
 
 header nav {
-  /* Apply row wrapping for links */
+  /* Apply row wrapping for nav links */
   display: flex;
   flex-flow: row wrap;
 }
 
 header nav a {
-  /* Apply margin for links */
+  /* Apply margin for nav links */
+  padding: 5px;
   margin-right: 10px;
-  /* Apply color for links */
+  /* Apply color for nav links */
   color: white;
+  /* Remove underlines for nav links */
+  text-decoration: none;
+  /* Support nav link transitions */
+  transition: 0.3s;
+}
+
+header nav a:hover {
+  /* Support nav link transitions */
+  background-color: white;
+  color: black;
 }
 
 main {
