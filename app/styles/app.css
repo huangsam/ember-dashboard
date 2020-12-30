@@ -42,8 +42,8 @@ header, footer {
   padding: 30px;
 }
 
-/* Apply row wrapping for links */
 header nav {
+  /* Apply row wrapping for links */
   display: flex;
   flex-flow: row wrap;
 }
