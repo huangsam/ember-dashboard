@@ -21,6 +21,9 @@ body {
   /* Simplify layout styling */
   margin: 0;
   padding: 0;
+}
+
+div.layout {
   /* Support sticky footer */
   display: flex;
   min-height: 100vh;

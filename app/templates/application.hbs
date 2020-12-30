@@ -1,16 +1,18 @@
-<header>
-  <h1 id="title">Sam's Data</h1>
-  <nav>
-    <LinkTo @route="index" class="button">Home</LinkTo>
-    <LinkTo @route="about" class="button">About</LinkTo>
-    <LinkTo @route="charts" class="button">Charts</LinkTo>
-  </nav>
-</header>
+<div class="layout">
+  <header>
+    <h1 id="title">Sam's Data</h1>
+    <nav>
+      <LinkTo @route="index" class="button">Home</LinkTo>
+      <LinkTo @route="about" class="button">About</LinkTo>
+      <LinkTo @route="charts" class="button">Charts</LinkTo>
+    </nav>
+  </header>
 
-<main>
-  {{outlet}}
-</main>
+  <main>
+    {{outlet}}
+  </main>
 
-<footer>
-  &copy; 2020 Sam's Publishing, Inc.
-</footer>
+  <footer>
+    &copy; 2020 Sam's Publishing, Inc.
+  </footer>
+</div>
