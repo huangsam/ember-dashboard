@@ -1,6 +1,13 @@
 <h2>Charts</h2>
-<p>Here are all of the charts that are being evaluated:</p>
-<AllCharts @data={{@model}} />
+<p>Here are the charts that are being evaluated for business use cases:</p>
+<div class="chart-box">
+  <Charts::FitnessChart @chartData={{@model.fitnessData}} />
+  <Charts::SalesChart @chartData={{@model.salesData}} />
+  <Charts::PopulationChart @chartData={{@model.populationData}} />
+  <Charts::HeightWeightChart @chartData={{@model.heightWeightData}} />
+  <Charts::BrowserChart @chartData={{@model.browserData}} />
+  <Charts::EmploymentChart @chartData={{@model.employmentData}} />
+</div>
 <p>Every chart is derived from the following sources:</p>
 <ul>
   <li><a href="https://www.highcharts.com/demo">HighCharts</a></li>
