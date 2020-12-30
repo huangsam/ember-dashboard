@@ -18,7 +18,7 @@ export default {
   chart: {
     backgroundColor: null,
     style: {
-      fontFamily: "'PT Sans', sans-serif"
+      fontFamily: "sans-serif"
     }
   },
   title: {
