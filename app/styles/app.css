@@ -46,7 +46,7 @@ main {
   padding-bottom: 30px;
 }
 
-.chart-responsive {
+.chart {
   /* Support side-by-side charts */
   float: left;
   /* Apply padding for charts */
@@ -55,27 +55,27 @@ main {
 
 /* Enforce one image container with narrow screen */
 @media only screen and (max-width: 1014px) {
-  .chart-responsive {
+  .chart {
     width: 99%;
   }
 }
 
 /* Enforce two image containers with medium screen */
 @media only screen and (min-width: 1015px) and (max-width: 1314px) {
-  .chart-responsive {
+  .chart {
     width: 49%;
   }
 }
 
 /* Enforce three image containers with wide screen */
 @media only screen and (min-width: 1315px) {
-  .chart-responsive {
+  .chart {
     width: 32%;
   }
 }
 
 /* Clear floats after image containers */
-.chart-grid::after {
+.chart-box::after {
   content: "";
   clear: both;
   display: table;
