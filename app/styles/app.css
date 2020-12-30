@@ -7,6 +7,9 @@
  *
  * Sticky footers
  * https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
+ *
+ * Force an Element To Self-Clear its Children
+ * https://css-tricks.com/snippets/css/clear-fix/
  */
 
 html {
@@ -65,31 +68,33 @@ main {
 }
 
 /* Enforce one image container with narrow screen */
-@media only screen and (max-width: 1014px) {
+@media only screen and (max-width: 1099px) {
   .chart {
     width: 99%;
   }
 }
 
 /* Enforce two image containers with medium screen */
-@media only screen and (min-width: 1015px) and (max-width: 1314px) {
+@media only screen and (min-width: 1100px) and (max-width: 1399px) {
   .chart {
     width: 49%;
   }
 }
 
 /* Enforce three image containers with wide screen */
-@media only screen and (min-width: 1315px) {
+@media only screen and (min-width: 1400px) {
   .chart {
     width: 32%;
   }
+}
+
+.chart-box {
+  padding: 10px;
 }
 
 /* Clear floats after image containers */
 .chart-box::after {
   content: "";
   clear: both;
-  display: table;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  display: block;
 }
