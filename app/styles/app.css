@@ -73,6 +73,11 @@ header, footer {
   padding: 30px;
 }
 
+header a, footer a {
+  /* Apply color for links in side content */
+  color: white;
+}
+
 header nav {
   /* Apply row wrapping for nav links */
   display: flex;
@@ -80,11 +85,9 @@ header nav {
 }
 
 header nav a {
-  /* Apply margin for nav links */
-  padding: 5px;
+  /* Apply margin and padding for nav links */
   margin-right: 10px;
-  /* Apply color for nav links */
-  color: white;
+  padding: 5px;
   /* Remove underlines for nav links */
   text-decoration: none;
   /* Support nav link transitions */
