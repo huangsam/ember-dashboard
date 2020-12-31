@@ -1,8 +1,8 @@
 {
-  "name": "ember-demo",
+  "name": "ember-dashboard",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for ember-demo goes here",
+  "description": "Small description for ember-dashboard goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -43,6 +43,7 @@
     "ember-resolver": "^8.0.2",
     "ember-source": "~3.22.0",
     "ember-template-lint": "^2.14.0",
+    "ember-welcome-page": "^4.0.0",
     "eslint": "^7.11.0",
     "eslint-plugin-ember": "^9.3.0",
     "eslint-plugin-node": "^11.1.0",

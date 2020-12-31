@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'ember-demo',
+    modulePrefix: 'ember-dashboard',
     environment,
     rootURL: '/',
     locationType: 'auto',
