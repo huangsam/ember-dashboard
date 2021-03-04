@@ -20,7 +20,7 @@ export default class ChartsRoute extends Route {
     fitnessData: '/api/fitness-data.json',
     heightWeightData: '/api/height-weight-data.json',
     populationData: '/api/population-data.json',
-    salesData: '/api/sales-data.json'
+    salesData: '/api/sales-data.json',
   };
 
   async model() {

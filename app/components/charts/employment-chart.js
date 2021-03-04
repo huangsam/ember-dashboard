@@ -4,47 +4,49 @@ import BaseChart from './base-chart';
 export default class EmploymentChart extends BaseChart {
   chartOptions = {
     title: {
-      text: 'Solar Employment Growth by Sector, 2010-2016'
+      text: 'Solar Employment Growth by Sector, 2010-2016',
     },
     subtitle: {
-      text: 'Source: thesolarfoundation.com'
+      text: 'Source: thesolarfoundation.com',
     },
     yAxis: {
       title: {
-        text: 'Number of Employees'
-      }
+        text: 'Number of Employees',
+      },
     },
     xAxis: {
       accessibility: {
-        rangeDescription: 'Range: 2010 to 2017'
-      }
+        rangeDescription: 'Range: 2010 to 2017',
+      },
     },
     legend: {
       layout: 'vertical',
       align: 'right',
-      verticalAlign: 'middle'
+      verticalAlign: 'middle',
     },
     plotOptions: {
       series: {
         label: {
-          connectorAllowed: false
+          connectorAllowed: false,
         },
-        pointStart: 2010
-      }
+        pointStart: 2010,
+      },
     },
     responsive: {
-      rules: [{
-        condition: {
-          maxWidth: 500
+      rules: [
+        {
+          condition: {
+            maxWidth: 500,
+          },
+          chartOptions: {
+            legend: {
+              layout: 'horizontal',
+              align: 'center',
+              verticalAlign: 'bottom',
+            },
+          },
         },
-        chartOptions: {
-          legend: {
-            layout: 'horizontal',
-            align: 'center',
-            verticalAlign: 'bottom'
-          }
-        }
-      }]
-    }
+      ],
+    },
   };
 }

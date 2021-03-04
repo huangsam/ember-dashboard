@@ -5,27 +5,27 @@ export default class HeightWeightChart extends BaseChart {
   chartOptions = {
     chart: {
       type: 'scatter',
-      zoomType: 'xy'
+      zoomType: 'xy',
     },
     title: {
-      text: 'Height Versus Weight of Individuals by Gender'
+      text: 'Height Versus Weight of Individuals by Gender',
     },
     subtitle: {
-      text: 'Source: Heinz  2003'
+      text: 'Source: Heinz  2003',
     },
     xAxis: {
       title: {
         enabled: true,
-        text: 'Height (cm)'
+        text: 'Height (cm)',
       },
       startOnTick: true,
       endOnTick: true,
-      showLastLabel: true
+      showLastLabel: true,
     },
     yAxis: {
       title: {
-        text: 'Weight (kg)'
-      }
+        text: 'Weight (kg)',
+      },
     },
     legend: {
       layout: 'vertical',
@@ -34,7 +34,7 @@ export default class HeightWeightChart extends BaseChart {
       x: 100,
       y: 70,
       floating: true,
-      borderWidth: 1
+      borderWidth: 1,
     },
     plotOptions: {
       scatter: {
@@ -43,22 +43,22 @@ export default class HeightWeightChart extends BaseChart {
           states: {
             hover: {
               enabled: true,
-              lineColor: 'rgb(100,100,100)'
-            }
-          }
+              lineColor: 'rgb(100,100,100)',
+            },
+          },
         },
         states: {
           hover: {
             marker: {
-              enabled: false
-            }
-          }
+              enabled: false,
+            },
+          },
         },
         tooltip: {
           headerFormat: '<b>{series.name}</b><br>',
-          pointFormat: '{point.x} cm, {point.y} kg'
-        }
-      }
-    }
+          pointFormat: '{point.x} cm, {point.y} kg',
+        },
+      },
+    },
   };
 }

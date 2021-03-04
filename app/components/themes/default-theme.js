@@ -13,77 +13,77 @@ export default {
     '#55bf3b',
     '#df5353',
     '#7798bf',
-    '#aaeeee'
+    '#aaeeee',
   ],
   chart: {
     backgroundColor: null,
     style: {
-      fontFamily: "'PT Sans', sans-serif"
-    }
+      fontFamily: "'PT Sans', sans-serif",
+    },
   },
   title: {
     style: {
       color: 'black',
       fontSize: '16px',
       fontFamily: "'PT Sans Bold', sans-serif",
-      fontWeight: 'bold'
-    }
+      fontWeight: 'bold',
+    },
   },
   subtitle: {
     style: {
-      color: 'black'
-    }
+      color: 'black',
+    },
   },
   tooltip: {
     borderWidth: 0,
     style: {
-      fontSize: '14px'
-    }
+      fontSize: '14px',
+    },
   },
   legend: {
     itemStyle: {
       // fontWeight: 'bold',
-      fontSize: '14px'
-    }
+      fontSize: '14px',
+    },
   },
   xAxis: {
     labels: {
       style: {
         color: '#6e6e70',
-        fontSize: '14px'
-      }
+        fontSize: '14px',
+      },
     },
     title: {
       style: {
-        fontSize: '14px'
-      }
-    }
+        fontSize: '14px',
+      },
+    },
   },
   yAxis: {
     labels: {
       style: {
         color: '#6e6e70',
-        fontSize: '14px'
-      }
+        fontSize: '14px',
+      },
     },
     title: {
       style: {
-        fontSize: '14px'
-      }
-    }
+        fontSize: '14px',
+      },
+    },
   },
   plotOptions: {
     series: {
-      shadow: true
+      shadow: true,
     },
     candlestick: {
-      lineColor: '#404048'
-    }
+      lineColor: '#404048',
+    },
   },
   navigator: {
     xAxis: {
-      gridLineColor: '#D0D0D8'
-    }
+      gridLineColor: '#D0D0D8',
+    },
   },
   rangeSelector: {
     buttonTheme: {
@@ -92,19 +92,19 @@ export default {
       'stroke-width': 1,
       states: {
         select: {
-          fill: '#D0D0D8'
-        }
-      }
-    }
+          fill: '#D0D0D8',
+        },
+      },
+    },
   },
   scrollbar: {
-    trackBorderColor: '#C0C0C8'
+    trackBorderColor: '#C0C0C8',
   },
   background2: '#E0E0E8',
   global: {
-    timezoneOffset: new Date().getTimezoneOffset()
+    timezoneOffset: new Date().getTimezoneOffset(),
   },
   credits: {
-    enabled: false
-  }
+    enabled: false,
+  },
 };

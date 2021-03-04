@@ -4,39 +4,40 @@ import BaseChart from './base-chart';
 export default class PopulationChart extends BaseChart {
   chartOptions = {
     chart: {
-      type: 'bar'
+      type: 'bar',
     },
     title: {
-      text: 'Historic World Population by Region'
+      text: 'Historic World Population by Region',
     },
     subtitle: {
-      text: 'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>'
+      text:
+        'Source: <a href="https://en.wikipedia.org/wiki/World_population">Wikipedia.org</a>',
     },
     xAxis: {
       categories: ['Africa', 'America', 'Asia', 'Europe', 'Oceania'],
       title: {
-        text: null
-      }
+        text: null,
+      },
     },
     yAxis: {
       min: 0,
       title: {
         text: 'Population (millions)',
-        align: 'high'
+        align: 'high',
       },
       labels: {
-        overflow: 'justify'
-      }
+        overflow: 'justify',
+      },
     },
     tooltip: {
-      valueSuffix: ' millions'
+      valueSuffix: ' millions',
     },
     plotOptions: {
       bar: {
         dataLabels: {
-          enabled: true
-        }
-      }
+          enabled: true,
+        },
+      },
     },
     legend: {
       layout: 'vertical',
@@ -46,7 +47,7 @@ export default class PopulationChart extends BaseChart {
       y: 80,
       floating: true,
       borderWidth: 1,
-      shadow: true
-    }
+      shadow: true,
+    },
   };
 }

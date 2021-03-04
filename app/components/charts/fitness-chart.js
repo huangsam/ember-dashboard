@@ -4,18 +4,18 @@ import BaseChart from './base-chart';
 export default class FitnessChart extends BaseChart {
   chartOptions = {
     chart: {
-      type: 'area'
+      type: 'area',
     },
     title: {
-      text: 'Fitness activity over days'
+      text: 'Fitness activity over days',
     },
     xAxis: {
-      type: 'datetime'
+      type: 'datetime',
     },
     yAxis: {
       title: {
-        text: 'Miles Ran'
-      }
-    }
+        text: 'Miles Ran',
+      },
+    },
   };
 }
