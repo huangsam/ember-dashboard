@@ -59,6 +59,6 @@
   },
   "dependencies": {
     "ember-highcharts": "^2.2.0",
-    "highcharts": "^8.2.2"
+    "highcharts": "^9.0.1"
   }
 }
