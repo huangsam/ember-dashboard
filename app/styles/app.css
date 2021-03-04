@@ -18,24 +18,28 @@
   font-family: 'Lora';
   font-weight: normal;
   src: url(/fonts/Lora-VariableFont_wght.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'Lora Bold';
   font-weight: bold;
   src: url(/fonts/Lora-VariableFont_wght.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'PT Sans';
   font-weight: normal;
   src: url(/fonts/PTSans-Regular.ttf) format('truetype');
+  font-display: swap;
 }
 
 @font-face {
   font-family: 'PT Sans Bold';
   font-weight: bold;
   src: url(/fonts/PTSans-Bold.ttf) format('truetype');
+  font-display: swap;
 }
 
 html {
